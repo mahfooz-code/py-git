@@ -1,11 +1,11 @@
 [project]
-name = "git-python"
+name = "dulwich-python"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "gitpython>=3.1.44",
+    "dulwich>=0.24.1",
 ]
 [dependency-groups]
 dev = [
@@ -36,7 +36,6 @@ dev = [
     "ipytest>=0.14.2",
     "pytest-datadir>=1.8.0",
     "sphinxcontrib-plantuml>=0.30",
-    "types-python-dateutil>=2.9.0.20250822",
 ]
 
 [tool.sqlfluff.core]
